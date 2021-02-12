@@ -113,7 +113,12 @@ h4 {
     outline: 0 none transparent;
     -webkit-appearance:none;
  }
-
+ .form-message {
+    border: 1px solid #212121;
+ }
+ .form-message:focus {
+    border: 1px solid #212121;
+}
 textarea {
     margin-top: 40px;
     min-height: 200px;
@@ -212,9 +217,9 @@ html, body {
 ================================================== */
 .hero { 
     background: url(../img/hero.jpg) no-repeat center / cover; 
-    height: 80%;
+    height: 100%;
     width: 100%;
-    min-height: 700px;
+    min-height: 850px;
 }
 
 .hero .container {
