@@ -52,6 +52,7 @@ h4 {
 
 /* Buttons */ 
 .btn {
+    margin-top: 50px;
     min-width: 145px;
     line-height: 50px;
     padding: 0 30px;
@@ -236,6 +237,19 @@ html, body {
     margin-top: 150px;
     margin-bottom: 20px;
     text-transform: uppercase;
+}
+
+.hero h2 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.hero h4 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 30px;
 }
 
 .job-title {
