@@ -29,12 +29,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
  
-.icon-twitter:before { content: '\f099'; } /* '' */
-.icon-facebook:before { content: '\f09a'; } /* '' */
-.icon-gplus:before { content: '\f0d5'; } /* '' */
-.icon-linkedin:before { content: '\f0e1'; } /* '' */
-.icon-linkedin:before { content: '\f0e1'; } /* '' */
-.icon-up:before { content: '\f176'; } /* '' */
 
 /* CUSTOM RESETS
 ================================================== */
@@ -371,6 +365,7 @@ html, body {
 }
 
 .portfolio-item:before {
+    cursor: pointer;
     content: '';
     height: 100%;
     width: 100%;
@@ -390,12 +385,15 @@ html, body {
 }
 
 .portfolio-item-info {
+    cursor: pointer;
     position: absolute;
     top: 150px;
     left: 50px;
     z-index: 999;
     
 }
+
+    
 
 /* .portfolio-item:hover .portfolio-item-info {
     left: 50px;
@@ -411,15 +409,16 @@ html, body {
 .info-link {
     margin-left: auto;
     margin-right: auto;
-    width: 6em
+    width: 6em;
     margin-left: auto;
     margin-right: auto;
     width:90%;
     padding: 8px 9px 6px;
     font-size: 20px;
     margin: 0 auto;
-    border: 1px solid #fff;
-    color: #fff; */
+    border: 1px solid #000;
+    color: #000;
+    cursor:pointer;
     /* transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
     -moz-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
     -webkit-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
@@ -428,9 +427,12 @@ html, body {
 }
 
 .info-link:hover {
-    color: #212121;
-    background-color: #fff;
+    color: #fff;
+    background-color: #000;
 }
+.portfolio-item-info a {
+    cursor: pointer;
+    color: #000;
 
 .section-portfolio .btn {
     margin-top: 10px;
@@ -560,20 +562,3 @@ padding: 30px 0;
 .icon:hover {
     background-color: #fff;
 }
-
-.site-footer a {
-    transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
-    -moz-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
-    -webkit-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
-    -o-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
-    -ms-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
-}
-
-
-.copyright {
-    margin-bottom: 0;
-    line-height: 40px;
-    color: #fff;
-    text-align: center;
-}
-
