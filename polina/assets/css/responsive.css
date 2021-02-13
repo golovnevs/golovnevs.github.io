@@ -119,6 +119,7 @@
 
 	/* Section: Counters */
 	.section-counters {
+		background: url(../img/counter_bg.jpg) no-repeat fixed center / cover;
 		padding: 70px 0;
 	}
 
