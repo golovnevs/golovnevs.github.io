@@ -238,7 +238,23 @@
 
                 <h3>Записаться на бесплатную встречу-знакомство</h3>
                 <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                                
+                <form action="https://formspree.io/f/mbjpelby" method="POST">
+                    <input type="hidden" name="_next" value="#about">
+                    <input type="hidden" name="_subject" value="Сообщение с моего сайта" />
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <input type="text" name="name" class="form-control mt-x-0" placeholder="Имя" required>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="email" name="email" class="form-control" placeholder="Email" required>   
+                        </div>
+                        <div class="col-sm-12">
+                            <textarea name="message" id="mesaage" class="form-control form-message" placeholder="Над чем вы хотите поработать?" required></textarea>
+                        </div>
+                    </div>
+                    <button href="#" class="btn btn-border" type="submit">Отправить <span class="glyphicon glyphicon-send"></span></button>
+                </form>
+                
                 
                     <h4>Способы связи:</h4>
                     <a href="https://t.me/fraupopo_polina" target="blank" ><li><i class="fab fa-telegram fa-2x"></i>Телеграм</li></a>
