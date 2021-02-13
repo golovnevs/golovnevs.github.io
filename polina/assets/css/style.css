@@ -359,7 +359,7 @@ html, body {
 }
 
 .service p {
-    color: #000;
+    color:#000;
     margin-bottom: 0;
 }
 
@@ -414,7 +414,7 @@ html, body {
 .portfolio-item-info h4 {
     margin: 0 0 30px;
     font-weight: 700;
-    color: #fff;
+    color: #000;
 }
 
 .info-link {
@@ -428,7 +428,7 @@ html, body {
     font-size: 20px;
     margin: 0 auto;
     border: 1px solid #fff;
-    color: #fff; */
+    color: #000; */
     /* transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
     -moz-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
     -webkit-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
@@ -493,7 +493,7 @@ html, body {
 
 /* Section: Counters */
 .section-counters {
-    background: url(../img/counters-bg.jpg) no-repeat fixed center / cover;
+    background: url(../img/counter_bg.jpg) no-repeat fixed center / cover;
     width: 100%;
     padding: 100px 0;
     position: relative;
