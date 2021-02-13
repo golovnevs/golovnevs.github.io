@@ -412,15 +412,13 @@ html, body {
 }
 
 .info-link {
-    margin-left: auto;
+    margin-top: 50px;
+    margin-left: 10px;
     margin-right: auto;
     width: 6em;
-    margin-left: auto;
-    margin-right: auto;
     width:90%;
     padding: 8px 9px 6px;
     font-size: 20px;
-    margin: 0 auto;
     border: 1px solid #000;
     color: #000;
     cursor:pointer;
@@ -443,14 +441,30 @@ html, body {
     margin-top: 10px;
 }
 
+span {
+  
+  line-height: 3em;
+  background: rgba(255, 255, 255, 0.7);
+  margin-bottom: 35px;
+}
+
 .social {
 color: #000;
 padding: 30px 0;
+vertical-align: center;
 }
 .social a {
     color: #000;
     margin: 10px;
+    cursor: pointer;
     }
+.social li {
+    list-style-type:none;
+}
+
+.social i {
+    margin: 10px;
+}
 /* Modal */
 .modal {
     z-index: 9999;
