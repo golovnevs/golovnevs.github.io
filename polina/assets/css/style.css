@@ -393,8 +393,6 @@ html, body {
     
 }
 
-    
-
 /* .portfolio-item:hover .portfolio-item-info {
     left: 50px;
     opacity: 1;
@@ -430,10 +428,10 @@ html, body {
     color: #fff;
     background-color: #000;
 }
-.portfolio-item-info a {
-    cursor: pointer;
-    color: #000;
 
+.portfolio-item-info a {
+    color: black;
+}
 .section-portfolio .btn {
     margin-top: 10px;
 }
