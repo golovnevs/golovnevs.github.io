@@ -368,11 +368,11 @@
 
 	.portfolio-item,
 	.section-portfolio .col-md-4:nth-last-child(-n+3) .portfolio-item {
-		margin-bottom: 15px; 
+		margin-bottom: 20px; 
 	}
 
 	.section-portfolio .col-md-4:nth-last-child(-n+2) .portfolio-item {
-		margin-bottom: 0px;
+		margin-bottom: 20px;
 	}
 
 	.section-services .container {
@@ -436,7 +436,7 @@
 
 	.portfolio-item,
 	.section-portfolio .col-md-4:nth-last-child(-n+3) .portfolio-item {
-		margin-bottom: 0px; 
+		margin-bottom: 20px; 
 	}
 
 	.section-portfolio .btn {
