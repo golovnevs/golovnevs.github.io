@@ -71,7 +71,7 @@
 	/* SITEMAIN
 	================================================== */
 	.site-section {
-		padding-top: 90px;
+		padding-top: 30px;
 	}
 
 	.section-skills,
@@ -309,7 +309,7 @@
 	}
 
 	.hero img {
-		height: 200px
+		height: 250px
 	}
 
 	/* SITEMAIN
@@ -368,11 +368,11 @@
 
 	.portfolio-item,
 	.section-portfolio .col-md-4:nth-last-child(-n+3) .portfolio-item {
-		margin-bottom: 20px; 
+		margin-bottom: 15px; 
 	}
 
 	.section-portfolio .col-md-4:nth-last-child(-n+2) .portfolio-item {
-		margin-bottom: 20px;
+		margin-bottom: 0px;
 	}
 
 	.section-services .container {
@@ -436,7 +436,7 @@
 
 	.portfolio-item,
 	.section-portfolio .col-md-4:nth-last-child(-n+3) .portfolio-item {
-		margin-bottom: 20px; 
+		margin-bottom: 0px; 
 	}
 
 	.section-portfolio .btn {
