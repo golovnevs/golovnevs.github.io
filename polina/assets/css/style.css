@@ -277,7 +277,7 @@ html, body {
 
 .site-section h2,
 .site-section h3 {
-    font-size: 36px;
+    font-size: 30px;
     margin: 0;
     text-transform: uppercase;
 }
@@ -292,7 +292,7 @@ html, body {
 
 /* Section: Skills */
 .section-skills {
-    padding-bottom: 120px;
+    padding-bottom: 70px;
 }
 
 .skill + .skill {
@@ -345,7 +345,7 @@ html, body {
 }
 
 .section-services .container {
-    padding: 120px 100px;
+    padding: 80px 60px;
     position: relative;
     background-color: #fff;
     box-shadow: 0px 0px 40px 8px rgba(0, 0, 0, 0.2);
@@ -464,7 +464,9 @@ span {
 }
 
 .social {
-margin: auto;
+margin-top: 30px;
+margin-bottom: 30px;
+display: inline-block;
 max-width: 600px;
 color: #000;
 }
@@ -481,9 +483,11 @@ color: #000;
     margin-right: 10px;
     line-height: 120%;
     vertical-align: middle;
-    /* margin-top: 40px;
     margin-right: 10px; */
 }
+
+
+
 /* Modal */
 .modal {
     z-index: 9999;
