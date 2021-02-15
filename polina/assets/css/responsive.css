@@ -466,3 +466,8 @@
 .btn-fill {
 max-width: 80%;
 }
+
+.card {
+	margin: 0 auto;
+	margin-bottom:30px;
+}
