@@ -605,11 +605,14 @@
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    /* margin: auto; */
+    margin: 0 auto;
+    padding: 35px;
     text-align: center;
     /* font-family: arial; */
     display: inline-block;
+    padding: 0;
+    /* margin: 15px; */
+    max-width: 345px;
 
   }
   
@@ -617,6 +620,7 @@
     color: grey;
     font-size: 22px;
     margin-bottom: 20px;
+    
   }
   
   .card button {
@@ -636,11 +640,24 @@
   }
 
   .cards {
-    
+    display: flex;
+    justify-content:space-around;
+}
     }
      
-    .cards a {
-        margin: 0 auto;
+    .card p {
+    padding-left: 15px;
+    padding-right: 15px;
+      
     }
 
-    
+    .lastButton {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
