@@ -639,12 +639,12 @@ a.icon-up-bg:hover {color: #212121;}
   .social {
  
     display: inline-block;
-    max-width: 800px;
+    max-width: 200px;
     color: #000;
     }
     
     .social a {
-        margin-right: 20px;
+        margin-right: 40px;
         color: #000;
         cursor: pointer;
         }
