@@ -164,6 +164,7 @@ html, body {
 ================================================== */
 .site-header {
     position: fixed;
+    padding-top: 50px;
     top: 0;
     width: 100%;
     background-color: transparent;
@@ -657,3 +658,6 @@ a.icon-up-bg:hover {color: #212121;}
         vertical-align: middle;
         margin-right: 10px; */
     }
+ .test {
+     padding-top: 50px;
+ }

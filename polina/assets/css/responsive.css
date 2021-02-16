@@ -142,7 +142,7 @@
 
 	/* Buttons */ 
 	.btn {
-	    min-width: 100px;
+	    min-width: 162px;
 	    line-height: 30px;
 	    padding: 0 20px;
 	} 
@@ -314,7 +314,7 @@
 	/* SITEMAIN
 	================================================== */
 	.site-main {
-		margin-bottom: 140px;
+		margin-bottom: 30px;
 	}
 
 	/* site-section */
