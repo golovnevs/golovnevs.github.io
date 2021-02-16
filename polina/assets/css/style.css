@@ -586,21 +586,49 @@ a.icon-up-bg:hover {color: #212121;}
   }
 
   .cards {
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    
+    /* justify-content:space-around; */
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 0;
-    margin: auto;
+    margin-left: 30px;
+    margin-bottom: 30px;
     text-align: center;
-    
-    max-width: 340px;
+    max-width: 347px;
 
   }
-
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+    
+    .card p {
+   margin: 20px;
+      
+    }
   footer {
     text-align: center;
     padding: 3px;
