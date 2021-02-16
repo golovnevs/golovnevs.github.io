@@ -261,7 +261,7 @@ html, body {
 ================================================== */
 .site-main {
     position: relative;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     background-color: #fff;
     z-index: 1;
 }
