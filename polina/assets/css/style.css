@@ -590,7 +590,7 @@ a.icon-up-bg:hover {color: #212121;}
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    /* justify-content:space-around; */
+    justify-content:space-around;
 }
 
 .card {
@@ -635,11 +635,13 @@ a.icon-up-bg:hover {color: #212121;}
     background-color: #000;
     color: white;
   }
-
+.socials {
+    max-width: 500px;
+}
   .social {
  
-    display: inline-block;
-    max-width: 200px;
+    /* display: inline-block; */
+    /* max-width: 200px; */
     color: #000;
     }
     
@@ -650,7 +652,7 @@ a.icon-up-bg:hover {color: #212121;}
         }
     
     .social i {
-        display: inline-block;
+        /* display: inline-block; */
         width: 30px;
         text-align: center;
         margin-right: 10px;
