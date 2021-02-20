@@ -97,11 +97,11 @@
 
 	/* Section: Services */
 	.section-services{
-		padding-top: 80px;
+		padding-top: 50px;
 	}
 
 	.section-services .container {
-		padding: 70px 90px;
+		padding: 50px;
 	}
 	
 	.service h4 {
