@@ -489,7 +489,10 @@ html, body {
 
 /* Section: Counters */
 .section-counters {
-    background: url(../img/counterbg.jpg) no-repeat fixed center / cover;
+    background: url(../img/counterbg.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 100%;
     padding: 100px 0;
     position: relative;
