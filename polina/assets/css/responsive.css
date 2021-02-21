@@ -461,8 +461,19 @@
 	.site-footer .col-xs-offset-3 {
 		margin-left: 0;
 	}
+
+	.section-services:before {
+	content: '';
+	background-image: url(../img/services-bg.jpg) no-repeat fixed center / cover;
+	width: 100%;
+	height: 400px; 
+	position: absolute;
+	left: 0;
+	top: 0;
+}
 }
 
 .socials {
 	max-width: 150px;
 }
+
