@@ -667,7 +667,11 @@ a.icon-up-bg:hover {color: #212121;}
         vertical-align: middle;
         margin-right: 10px; */
     }
-    
+
  .telegram {
     padding: 5px;
+  }
+
+  .checks {
+      text-align: left;
   }
