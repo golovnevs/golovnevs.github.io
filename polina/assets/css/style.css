@@ -609,6 +609,7 @@ a.icon-up-bg:hover {color: #212121;}
   }
   
   .price {
+    align: center;
     color: grey;
     font-size: 22px;
     margin-bottom: 20px;
@@ -633,6 +634,7 @@ a.icon-up-bg:hover {color: #212121;}
     
     .card p {
    margin: 20px;
+   text-align: left;
       
     }
   footer {
@@ -642,7 +644,7 @@ a.icon-up-bg:hover {color: #212121;}
     color: white;
   }
 .socials {
-    ma
+
 }
   .social {
  
